@@ -1,16 +1,39 @@
-# React + Vite
+# Minimal Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react&logoColor=white)](https://reactjs.org/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-Currently, two official plugins are available:
+A modern, responsive **e-commerce demo application** built with **React**, featuring a product catalog, live cart management, and styled UI inspired by minimalistic design principles.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is perfect as a learning example or a starting point for building a full-fledged online store.  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- **Product Catalog:** Fetches products from a public API (`https://dummyjson.com/products`) with dynamic loading and error handling.  
+- **Shopping Cart:** Add, remove, and update quantities of products in the cart with **live updates**.  
+- **Persistent Storage:** Cart data is stored in **`localStorage`**, so items remain across page reloads.  
+- **Responsive Design:** Mobile-first and optimized for all screen sizes.  
+- **Styled Components:** Clean, modern UI using Tailwind CSS + custom colors (`#003f99`, `#005fcc`, `#eef4ff`).  
+- **Toast Notifications:** Friendly feedback when products are added to the cart using `react-toastify`.  
+- **Routing:** Multi-page routing with React Router (`Home`, `About`, `Login`, `Register`, `Cart`).  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Pages
+
+- **Home:** Product listings, featured products, hero section, and add-to-cart functionality.  
+- **Cart:** View items, update quantities, remove products, see subtotal, shipping, and total.  
+- **About:** Static about page.  
+- **Login/Register:** Authentication UI placeholders (no backend integration yet).  
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/minimal-store.git
+cd minimal-store
