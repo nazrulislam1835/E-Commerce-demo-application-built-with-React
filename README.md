@@ -35,7 +35,7 @@ This project is perfect as a learning example or a starting point for building a
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/minimal-store.git
+git clone https://github.com/nazrulislam1835/E-Commerce-demo-application-built-with-React.git
 cd minimal-store
 ```
 
@@ -66,14 +66,11 @@ npm run dev
 
 ## How it Works
 
--**Adding Items to Cart:** Click the "Add" button on any product in the home page.
--**Live Cart Update:** Cart automatically updates without page refresh.
--**Persistent Storage:** Cart state is saved in ```localStorage```.
--**Quantity Management:** Change quantity or remove items in the cart.
--**Summary:** Displays subtotal, shipping (free over $75), and total cost.
-
----
-
+-**Adding Items to Cart:** Click the "Add" button on any product in the home page.  
+-**Live Cart Update:** Cart automatically updates without page refresh.  
+-**Persistent Storage:** Cart state is saved in ```localStorage```.  
+-**Quantity Management:** Change quantity or remove items in the cart.  
+-**Summary:** Displays subtotal, shipping (free over $75), and total cost.  
 
 ---
 
@@ -84,9 +81,8 @@ If your project folder is ready, you can upload it using these commands:
 ```bash
 git init
 git add .
-git commit -m "Initial commit - Minimal Store"
+git commit -m "Initial commit - E-Commerce-demo-application-built-with-React"
 git branch -M main
-git remote add origin https://github.com/yourusername/minimal-store.git
+git remote add origin https://github.com/nazrulislam1835/E-Commerce-demo-application-built-with-React.git
 git push -u origin main
 ```
----
