@@ -62,15 +62,14 @@ npm run dev
 - Tailwind CSS (for styling).
 
 ---
----
 
 ## How it Works
 
--**Adding Items to Cart:** Click the "Add" button on any product in the home page.  
--**Live Cart Update:** Cart automatically updates without page refresh.  
--**Persistent Storage:** Cart state is saved in ```localStorage```.  
--**Quantity Management:** Change quantity or remove items in the cart.  
--**Summary:** Displays subtotal, shipping (free over $75), and total cost.  
+- **Adding Items to Cart:** Click the "Add" button on any product in the home page.  
+- **Live Cart Update:** Cart automatically updates without page refresh.  
+- **Persistent Storage:** Cart state is saved in ```localStorage```.  
+- **Quantity Management:** Change quantity or remove items in the cart.  
+- **Summary:** Displays subtotal, shipping (free over $75), and total cost.  
 
 ---
 
