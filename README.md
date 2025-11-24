@@ -55,10 +55,38 @@ npm run dev
 
 ## Dependencies
 
-- **React 18+ 
-- **React Router DOM**.  
-- **Axios (for API requests)  
-- **React Toastify (for notifications)  
-- **Tailwind CSS (for styling) 
+- React 18+.
+- React Router DOM.  
+- Axios (for API requests).
+- React Toastify (for notifications).
+- Tailwind CSS (for styling).
 
+---
+---
+
+## How it Works
+
+-**Adding Items to Cart:** Click the "Add" button on any product in the home page.
+-**Live Cart Update:** Cart automatically updates without page refresh.
+-**Persistent Storage:** Cart state is saved in ```localStorage```.
+-**Quantity Management:** Change quantity or remove items in the cart.
+-**Summary:** Displays subtotal, shipping (free over $75), and total cost.
+
+---
+
+
+---
+
+### GitHub Upload Commands
+
+If your project folder is ready, you can upload it using these commands:
+
+```bash
+git init
+git add .
+git commit -m "Initial commit - Minimal Store"
+git branch -M main
+git remote add origin https://github.com/yourusername/minimal-store.git
+git push -u origin main
+```
 ---
