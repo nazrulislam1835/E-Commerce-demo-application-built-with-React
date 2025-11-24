@@ -37,3 +37,28 @@ This project is perfect as a learning example or a starting point for building a
 ```bash
 git clone https://github.com/yourusername/minimal-store.git
 cd minimal-store
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Run the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## Dependencies
+
+- **React 18+ 
+- **React Router DOM**.  
+- **Axios (for API requests)  
+- **React Toastify (for notifications)  
+- **Tailwind CSS (for styling) 
+
+---
